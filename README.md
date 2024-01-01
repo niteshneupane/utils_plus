@@ -46,6 +46,8 @@ final a = UserType.superAdmin;
 print(a.toFormattedString) // Returns 'Super Admin'
 
 ```
+Check out the [example](https://github.com/niteshneupane/utils_plus/tree/main/example) directory for detailed examples:
+
 
 ## Additional information
 
