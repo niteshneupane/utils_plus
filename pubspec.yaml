@@ -1,6 +1,6 @@
 name: utils_plus
-description: "Flutter package that provides a collection of useful extensions for common Dart and Flutter types. It aims to simplify and enhance your development experience by offering convenient methods and utilities."
-version: 0.0.1
+description: "Utils plus offers convenient extensions for common Dart and Flutter types, simplifying and enhancing development with useful methods and utilities."
+version: 0.0.2
 homepage: https://neupanenitesh.com.np/utils_plus
 repository: https://github.com/niteshneupane/utils_plus
 issue_tracker: https://github.com/niteshneupane/utils_plus/issues
