@@ -11,8 +11,7 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+`utils_plus` is a Flutter package that provides a collection of useful extensions for common Dart and Flutter types. It aims to simplify and enhance your development experience by offering convenient methods and utilities.
 
 ## Features
 
@@ -20,8 +19,11 @@ TODO: List what your package can do. Maybe include images, gifs, or videos.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+To use this package, add `utils_plus` to your `pubspec.yaml` file:
+
+```yaml
+dependencies:
+  utils_plus: ^1.0.0
 
 ## Usage
 
