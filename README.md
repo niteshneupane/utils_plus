@@ -43,7 +43,7 @@ enum UserType{
     normal;
 }
 final a = UserType.superAdmin;
-print(a.toFormattedString) // Returbs 'Super Admin'
+print(a.toFormattedString) // Returns 'Super Admin'
 
 ```
 
