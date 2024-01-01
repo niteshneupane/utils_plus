@@ -15,7 +15,13 @@ and the Flutter guide for
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Contains various extentions for
+- String
+- num
+- int
+- List
+- DateTime
+- Enum
 
 ## Getting started
 
@@ -24,6 +30,8 @@ To use this package, add `utils_plus` to your `pubspec.yaml` file:
 ```yaml
 dependencies:
   utils_plus: ^1.0.0
+
+```
 
 ## Usage
 
