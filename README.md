@@ -35,11 +35,16 @@ dependencies:
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
 
 ```dart
-const like = 'sample';
+enum UserType{
+    admin,
+    superAdmin,
+    normal;
+}
+final a = UserType.superAdmin;
+print(a.toFormattedString) // Returbs 'Super Admin'
+
 ```
 
 ## Additional information
