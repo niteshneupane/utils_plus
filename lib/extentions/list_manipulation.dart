@@ -7,7 +7,12 @@ extension NullSafeListCheck on List? {
 
 extension ListnumManipulation on List<num> {
   /// Get total from list of num
+
   num get total {
-    return reduce((a, b) => a + b);
+    num t = 0;
+    for (var e in this) {
+      t += e;
+    }
+    return t;
   }
 }
