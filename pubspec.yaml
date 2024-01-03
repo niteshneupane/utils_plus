@@ -1,6 +1,6 @@
 name: utils_plus
 description: "Utils plus offers convenient extensions for common Dart and Flutter types, simplifying and enhancing development with useful methods and utilities."
-version: 0.0.2
+version: 0.0.3
 homepage: https://neupanenitesh.com.np/utils_plus
 repository: https://github.com/niteshneupane/utils_plus
 issue_tracker: https://github.com/niteshneupane/utils_plus/issues
@@ -13,7 +13,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  intl: ^0.19.0
+  intl: ^0.18.1
 
 dev_dependencies:
   flutter_test:

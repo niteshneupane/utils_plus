@@ -29,7 +29,7 @@ To use this package, add `utils_plus` to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  utils_plus: ^1.0.0
+  utils_plus: ^0.0.3
 
 ```
 

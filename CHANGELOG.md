@@ -6,4 +6,6 @@
 
 * added valid descriptions
 
-
+## 0.0.3
+* Refactor ReadMe
+* intl version downgrade
