@@ -23,7 +23,22 @@ extension NumbersTweakInt on int {
     return '$hoursStr:$minutesStr:$secondsStr';
   }
 
-  /// Format time "hr:min:sec or min:sec"
+  /// Format time "hr:min:sec" or "hr:min:sec"
+
+  String get formatTimeMinSec {
+    if (isNegative) return "$this";
+    int hours = (this / 3600).floor();
+    int minutes = ((this % 3600) / 60).floor();
+    int seconds = (this % 60);
+
+    String hoursStr = (hours % 24).toString().padLeft(2, '0');
+    String minutesStr = minutes.toString().padLeft(2, '0');
+    String secondsStr = seconds.toString().padLeft(2, '0');
+
+    return '${hours > 0 ? "$hoursStr:" : ""}$minutesStr:$secondsStr';
+  }
+
+  /// Format time "$hr hrs $min mins $sec secs"
 
   String get formatTimeToHrMinSec {
     if (isNegative) return "$this";

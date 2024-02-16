@@ -179,10 +179,10 @@ packages:
   utils_plus:
     dependency: "direct main"
     description:
-      path: "/home/nitesh/Asparksys/utils_plus"
-      relative: false
+      path: ".."
+      relative: true
     source: path
-    version: "0.0.1"
+    version: "0.0.5"
   vector_math:
     dependency: transitive
     description:

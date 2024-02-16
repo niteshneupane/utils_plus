@@ -13,3 +13,7 @@
 
 ## 0.0.4
 * change listmanipulation
+
+## 0.0.5
+* updated intl
+* updated format time

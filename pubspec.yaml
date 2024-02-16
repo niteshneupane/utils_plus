@@ -1,10 +1,10 @@
 name: utils_plus
 description: "Utils plus offers convenient extensions for common Dart and Flutter types, simplifying and enhancing development with useful methods and utilities."
-version: 0.0.4
-homepage: https://neupanenitesh.com.np/utils_plus
-repository: https://github.com/niteshneupane/utils_plus
-issue_tracker: https://github.com/niteshneupane/utils_plus/issues
-documentation: https://neupanenitesh.com.np/utils_plus/docs
+version: 0.0.5
+homepage: https://neupanenitesh.com.np/utils_plus/
+repository: https://github.com/niteshneupane/utils_plus/
+issue_tracker: https://github.com/niteshneupane/utils_plus/issues/
+documentation: https://neupanenitesh.com.np/utils_plus/docs/
 
 environment:
   sdk: '>=3.2.0 <4.0.0'
@@ -13,12 +13,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  intl: ^0.18.1
+  intl: ^0.19.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^3.0.1
 
 screenshots:
   - description: Utils Table Home Page 1
